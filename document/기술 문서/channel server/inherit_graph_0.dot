@@ -1,0 +1,37 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="Message",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node22 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="channel_server::basic_info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1basic__info.html"];
+  Node22 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="channel_server::game\l_history",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1game__history.html"];
+  Node22 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="channel_server::packet\l_error_message",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__error__message.html"];
+  Node22 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="channel_server::packet\l_friends_ans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__friends__ans.html"];
+  Node22 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="channel_server::packet\l_friends_req",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__friends__req.html"];
+  Node22 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="channel_server::packet\l_join_ans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__join__ans.html"];
+  Node22 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="channel_server::packet\l_join_req",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__join__req.html"];
+  Node22 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="channel_server::packet\l_logout_ans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__logout__ans.html"];
+  Node22 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="channel_server::packet\l_logout_req",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__logout__req.html"];
+  Node22 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="channel_server::packet\l_matching_complete_ans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__matching__complete__ans.html"];
+  Node22 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="channel_server::packet\l_matching_confirm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__matching__confirm.html"];
+  Node22 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="channel_server::packet\l_play_friends_game_rel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__play__friends__game__rel.html"];
+  Node22 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="channel_server::packet\l_play_rank_game_ans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__play__rank__game__ans.html"];
+  Node22 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="channel_server::packet\l_play_rank_game_req",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1packet__play__rank__game__req.html"];
+  Node22 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="channel_server::user_info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1user__info.html"];
+}

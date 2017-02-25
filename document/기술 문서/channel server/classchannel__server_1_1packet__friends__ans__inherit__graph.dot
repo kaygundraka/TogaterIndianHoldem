@@ -1,0 +1,8 @@
+digraph "channel_server::packet_friends_ans"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{channel_server::packet\l_friends_ans\n|+ ADD_SUCCESS\l+ DEL_SUCCESS\l+ ADD_FAIL\l+ DEL_FAIL\l+ SEARCH_SUCCESS\l+ SEARCH_FAIL\l+ ans_type_MIN\l+ ans_type_MAX\l+ ans_type_ARRAYSIZE\l+ kTypeFieldNumber\l+ kFriendsInfoFieldNumber\l+ kOnlineFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- friends_info_\l- online_\l- type_\l|+ packet_friends_ans()\l+ ~packet_friends_ans()\l+ packet_friends_ans()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 26 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l+ ans_type_IsValid()\l+ ans_type_descriptor()\l+ ans_type_Name()\l+ ans_type_Parse()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_type()\l- clear_has_type()\l- set_has_friends_info()\l- clear_has_friends_info()\l- set_has_online()\l- clear_has_online()\l- InitAsDefaultInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Message\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

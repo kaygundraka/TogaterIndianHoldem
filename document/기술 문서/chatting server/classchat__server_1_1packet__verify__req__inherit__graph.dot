@@ -1,0 +1,8 @@
+digraph "chat_server::packet_verify_req"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{chat_server::packet\l_verify_req\n|+ kKeyStringFieldNumber\l+ kValueUserIdFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- key_string_\l- value_user_id_\l|+ packet_verify_req()\l+ ~packet_verify_req()\l+ packet_verify_req()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 30 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_key_string()\l- clear_has_key_string()\l- set_has_value_user_id()\l- clear_has_value_user_id()\l- RequiredFieldsByteSizeFallback()\l- InitAsDefaultInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Message\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

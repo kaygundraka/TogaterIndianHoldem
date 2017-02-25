@@ -1,0 +1,6 @@
+digraph "user"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{user\n|- rating_score_\l- battle_history_\l- win_\l- lose_\l- friends_count_\l- user_id_\l|+ set_user_info()\l+ get_rating()\l+ get_battle_history()\l+ get_win()\l+ get_lose()\l+ get_user_id()\l+ set_friends_count()\l+ get_friends_count()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

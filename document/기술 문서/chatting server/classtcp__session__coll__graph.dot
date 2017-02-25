@@ -1,0 +1,9 @@
+digraph "tcp_session"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{tcp_session\n|- socket_\l- session_id_\l- user_key_\l- user_id_\l- status_\l- receive_buffer_\l- send_data_queue_\l|+ tcp_session()\l+ ~tcp_session()\l+ get_socket()\l+ get_session_id()\l+ get_user_key()\l+ get_user_id()\l+ get_opponent_session()\l+ get_status()\l+ set_user_key()\l+ set_user_id()\l+ set_opponent_session()\l+ set_status()\l+ post_send()\l+ post_receive()\l- handle_write()\l- handle_receive()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -server_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{tcp_server\n|+ strand_accept_\l+ strand_close_\l+ strand_receive_\l+ strand_send_\l- is_accepting_\l- io_service_\l- acceptor_\l- session_queue_\l- session_list_\l- connected_session_map_\l- master_data_queue_\l- reserved_message\l- reserved_message_size\l|+ tcp_server()\l+ ~tcp_server()\l+ init()\l+ start()\l+ get_io_service()\l+ get_master_data_queue()\l+ close_session()\l+ process_packet()\l- make_reserved_message()\l- post_accept()\l- handle_accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtcp__server.html"];
+  Node1 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -opponent_session_" ,arrowhead="odiamond",fontname="Helvetica"];
+}

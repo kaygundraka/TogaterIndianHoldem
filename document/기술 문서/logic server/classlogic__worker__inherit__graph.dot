@@ -1,0 +1,10 @@
+digraph "logic_worker"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{logic_worker\n|- room_hashs_\l- logic_thread_\l- end_server_\l|+ init_singleton()\l+ release_singleton()\l+ enter_room_player()\l+ process_turn()\l+ process_turn_v2()\l+ disconnect_room()\l+ give_up_game()\l+ is_create_room()\l+ ready_for_game()\l+ process_queue()\l+ logic_worker()\l+ ~logic_worker()\l- check_card_mix()\l- create_room()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{singleton\< logic_worker \>\n|# instance\l|+ ~singleton()\l+ init_singleton()\l+ release_singleton()\l+ get_instance()\l# singleton()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsingleton.html"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{multi_thread_sync\<\l logic_worker \>\n|- sync\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmulti__thread__sync.html"];
+}

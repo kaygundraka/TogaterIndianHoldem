@@ -1,0 +1,6 @@
+digraph "tcp_server"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{tcp_server\n|+ strand_accept_\l+ strand_close_\l+ strand_receive_\l+ strand_send_\l- is_accepting_\l- io_service_\l- acceptor_\l- session_queue_\l- session_list_\l- connected_session_map_\l- master_data_queue_\l- reserved_message\l- reserved_message_size\l|+ tcp_server()\l+ ~tcp_server()\l+ init()\l+ start()\l+ get_io_service()\l+ get_master_data_queue()\l+ close_session()\l+ process_packet()\l- make_reserved_message()\l- post_accept()\l- handle_accept()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

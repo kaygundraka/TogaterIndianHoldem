@@ -1,0 +1,13 @@
+digraph "match_manager"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{match_manager\n|- timer_value_\l- redis_connection_\l- rank_que_mtx\l- matching_que\l|+ match_manager()\l+ ~match_manager()\l+ process_matching()\l+ process_match_confirm()\l+ process_matching_with\l_friends()\l+ rematching_start()\l+ make_matching_and_send\l_complete()\l- set_matching_que()\l- get_matching_que()\l- check_rating()\l- generate_room_key()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -friends_manager_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{friends_manager\n|- del_count\l- redis_connector_\l- user_id_map_\l- user_id_map_mtx\l|+ friends_manager()\l+ ~friends_manager()\l+ lobby_login_process()\l+ del_redis_token()\l+ lobby_logout_process()\l+ search_user()\l+ add_friends()\l+ del_friends()\l+ process_friends_function()\l+ find_id_in_user_map()\l+ del_id_in_user_map()\l+ add_id_in_user_map()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classfriends__manager.html"];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -packet_handler_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{packet_handler\n||+ incode_message()\l+ incode_message()\l+ incode_message()\l+ incode_message()\l+ incode_message()\l+ incode_message()\l+ incode_message()\l+ incode_message()\l+ incode_message()\l+ incode_message()\l+ incode_message()\l+ incode_message()\l+ decode_message()\l- incoding()\l- PrintMessage()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpacket__handler.html"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -db_connector_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{db_connector\n|- connection_mtx\l- connection_que\l- connection_pool\l- init_instance\l- ip\l- id\l- pwd\l- db_name\l- pool_size\l- port\l|+ db_connector()\l+ ~db_connector()\l+ init()\l+ get_query_user_info()\l+ get_user_friends_list()\l+ add_user_frineds_list()\l+ del_user_frineds_list()\l+ get_connection()\l+ release_connection()\l- reconncet()\l- check_repetition()\l- load_mysql_config()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdb__connector.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -packet_handler_" ,arrowhead="odiamond",fontname="Helvetica"];
+}

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="chat_server::StaticDescriptor\lInitializer_chat_5fprotobuf\l_2eproto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structchat__server_1_1_static_descriptor_initializer__chat__5fprotobuf__2eproto.html"];
+}

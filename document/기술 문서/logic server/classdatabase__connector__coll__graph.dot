@@ -1,0 +1,15 @@
+digraph "database_connector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{database_connector\n|- queue_list_\l- is_work\l- work_thread\l|+ init_singleton()\l+ release_singleton()\l+ push_query()\l+ process_queue()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{singleton\< database\l_connector \>\n||+ ~singleton()\l+ init_singleton()\l+ release_singleton()\l+ get_instance()\l# singleton()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsingleton.html"];
+  Node3 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #instance" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{multi_thread_sync\<\l database_connector \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmulti__thread__sync.html"];
+  Node6 -> Node5 [color="grey25",fontsize="10",style="solid",label=" -sync" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{critical_section\n|- sync\l|+ critical_section()\l+ ~critical_section()\l+ enter()\l+ leave()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcritical__section.html"];
+  Node7 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -session_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{_DB_CONNECTION\n|+ connection_\l+ conn\l+ sql_result_\l+ query_state_\l|+ _DB_CONNECTION()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct___d_b___c_o_n_n_e_c_t_i_o_n.html"];
+}

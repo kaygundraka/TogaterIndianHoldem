@@ -1,0 +1,27 @@
+digraph "redis_connector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{redis_connector\n||+ init_singleton()\l+ release_singleton()\l+ redis_connector()\l+ ~redis_connector()\l+ check_room()\l+ remove_room_info()\l+ remove_player_info()\l+ get_id()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{singleton\< redis_connector \>\n||+ ~singleton()\l+ init_singleton()\l+ release_singleton()\l+ get_instance()\l# singleton()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsingleton.html"];
+  Node3 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #instance" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{multi_thread_sync\<\l redis_connector \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmulti__thread__sync.html"];
+  Node6 -> Node5 [color="grey25",fontsize="10",style="solid",label=" -sync" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{critical_section\n|- sync\l|+ critical_section()\l+ ~critical_section()\l+ enter()\l+ leave()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcritical__section.html"];
+  Node7 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -conn" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{redispp::Connection\n|+ kDefaultBufferSize\l- connection\l- ioStream\l- buffer\l- outstandingReplies\l|+ Connection()\l+ Connection()\l+ ~Connection()\l+ quit()\l+ authenticate()\l+ exists()\l+ del()\l+ type()\l+ keys()\l+ randomKey()\land 61 more...\l- readStatusCodeReply()\l- readStatusCodeReply()\l- readIntegerReply()\l- readBulkReply()\l- readBulkReply()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\land 83 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_connection.html"];
+  Node8 -> Node7 [color="grey25",fontsize="10",style="solid",label=" -transaction" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{redispp::Transaction\n||+ Transaction()\l+ ~Transaction()\l+ commit()\l+ abort()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_transaction.html"];
+  Node9 -> Node8 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{noncopyable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node8 [color="grey25",fontsize="10",style="solid",label=" -replies" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{redispp::QueuedReply\n|- count\l- state\l|+ QueuedReply()\l+ ~QueuedReply()\l# readResult()\l- QueuedReply()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_queued_reply.html"];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node11 [label="{redispp::BaseReply\n||+ BaseReply()\l+ BaseReply()\l+ operator=()\l+ ~BaseReply()\l# readResult()\l# clearPendingResults()\l# BaseReply()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_base_reply.html"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node12 [label="{auto_unlink_hook\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node11 [color="grey25",fontsize="10",style="solid",label=" #conn" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 -> Node8 [color="grey25",fontsize="10",style="solid",label=" -conn" ,arrowhead="odiamond",fontname="Helvetica"];
+}

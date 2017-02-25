@@ -1,0 +1,12 @@
+digraph "channel_server::packet_join_ans"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{channel_server::packet\l_join_ans\n|+ kSuccessFieldNumber\l+ kHistoryFieldNumber\l+ kFriendsListFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- friends_list_\l- success_\l|+ packet_join_ans()\l+ ~packet_join_ans()\l+ packet_join_ans()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 29 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_success()\l- clear_has_success()\l- set_has_history()\l- clear_has_history()\l- InitAsDefaultInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{google::protobuf::Message\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -history_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{channel_server::game\l_history\n|+ kRatingScoreFieldNumber\l+ kTotalGamesFieldNumber\l+ kWinFieldNumber\l+ kLoseFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- rating_score_\l- total_games_\l- win_\l- lose_\l|+ game_history()\l+ ~game_history()\l+ game_history()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 28 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_rating_score()\l- clear_has_rating_score()\l- set_has_total_games()\land 7 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1game__history.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{Message\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

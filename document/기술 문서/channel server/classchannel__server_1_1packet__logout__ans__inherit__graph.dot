@@ -1,0 +1,8 @@
+digraph "channel_server::packet_logout_ans"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{channel_server::packet\l_logout_ans\n|+ kNoneFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- none_\l|+ packet_logout_ans()\l+ ~packet_logout_ans()\l+ packet_logout_ans()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 16 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_none()\l- clear_has_none()\l- InitAsDefaultInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Message\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

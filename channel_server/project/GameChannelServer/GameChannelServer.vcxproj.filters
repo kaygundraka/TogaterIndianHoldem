@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\server">
+      <UniqueIdentifier>{fa7ab461-7c7b-4bd4-9616-962c0fc1b4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\log">
+      <UniqueIdentifier>{eda8df49-34fe-4832-8ac6-8d17df103487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\packet">
+      <UniqueIdentifier>{4ec83cf9-a0ac-44a2-9ba7-656d939cebb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\log">
+      <UniqueIdentifier>{d474d59a-ab32-4dae-849e-67600e6fb8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\packet">
+      <UniqueIdentifier>{575a339b-0aac-4065-9213-a1ec01444910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\server">
+      <UniqueIdentifier>{6356e235-583c-41ae-b7c1-a729ba1e5727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DB">
+      <UniqueIdentifier>{0842af64-ebc5-4fe8-b98f-c7916d27361d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DB\memcache">
+      <UniqueIdentifier>{794b31e6-b37b-4fbd-9f4b-a7ca9f4bf937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DB">
+      <UniqueIdentifier>{278ade97-193f-4d4c-9925-877c4b5ce159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DB\memcache">
+      <UniqueIdentifier>{ee0c58da-7b80-4f4b-aaf1-b3149c44bed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\server feature">
+      <UniqueIdentifier>{f1200654-52b7-4b7a-aea9-dd7332ec2bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\server feature">
+      <UniqueIdentifier>{3b1c22a5-5474-4cc9-933e-40a86d8dd7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\config">
+      <UniqueIdentifier>{df28f66b-b96c-4772-bbeb-bb7af8689608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\config">
+      <UniqueIdentifier>{348e3104-9087-4fd2-804b-ae806f36a460}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="log_manager.cpp">
+      <Filter>소스 파일\log</Filter>
+    </ClCompile>
+    <ClCompile Include="channel_server.cpp">
+      <Filter>소스 파일\server</Filter>
+    </ClCompile>
+    <ClCompile Include="server_main.cpp">
+      <Filter>소스 파일\server</Filter>
+    </ClCompile>
+    <ClCompile Include="redispp.cpp">
+      <Filter>소스 파일\DB\memcache</Filter>
+    </ClCompile>
+    <ClCompile Include="match_manager.cpp">
+      <Filter>소스 파일\server feature</Filter>
+    </ClCompile>
+    <ClCompile Include="db_connector.cpp">
+      <Filter>소스 파일\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>소스 파일\config</Filter>
+    </ClCompile>
+    <ClCompile Include="friends_manager.cpp">
+      <Filter>소스 파일\server feature</Filter>
+    </ClCompile>
+    <ClCompile Include="channel_protobuf.pb.cc">
+      <Filter>소스 파일\packet</Filter>
+    </ClCompile>
+    <ClCompile Include="redis_connector.cpp">
+      <Filter>소스 파일\DB\memcache</Filter>
+    </ClCompile>
+    <ClCompile Include="server_session.cpp">
+      <Filter>소스 파일\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="log_manager.h">
+      <Filter>헤더 파일\log</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="channel_server.h">
+      <Filter>헤더 파일\server</Filter>
+    </ClInclude>
+    <ClInclude Include="server_session.h">
+      <Filter>헤더 파일\server</Filter>
+    </ClInclude>
+    <ClInclude Include="redispp.h">
+      <Filter>헤더 파일\DB\memcache</Filter>
+    </ClInclude>
+    <ClInclude Include="match_manager.h">
+      <Filter>헤더 파일\server feature</Filter>
+    </ClInclude>
+    <ClInclude Include="db_connector.h">
+      <Filter>헤더 파일\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>헤더 파일\config</Filter>
+    </ClInclude>
+    <ClInclude Include="friends_manager.h">
+      <Filter>헤더 파일\server feature</Filter>
+    </ClInclude>
+    <ClInclude Include="channel_protobuf.pb.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>헤더 파일\server feature</Filter>
+    </ClInclude>
+    <ClInclude Include="redis_connector.h">
+      <Filter>헤더 파일\DB\memcache</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

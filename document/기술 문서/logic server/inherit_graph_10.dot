@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="logic_server::StaticDescriptor\lInitializer_logic_5fserver\l_2eproto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlogic__server_1_1_static_descriptor_initializer__logic__5fserver__2eproto.html"];
+}

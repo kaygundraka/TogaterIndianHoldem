@@ -1,0 +1,8 @@
+digraph "channel_server::game_history"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{channel_server::game\l_history\n|+ kRatingScoreFieldNumber\l+ kTotalGamesFieldNumber\l+ kWinFieldNumber\l+ kLoseFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- rating_score_\l- total_games_\l- win_\l- lose_\l|+ game_history()\l+ ~game_history()\l+ game_history()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 28 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_rating_score()\l- clear_has_rating_score()\l- set_has_total_games()\land 7 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Message\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

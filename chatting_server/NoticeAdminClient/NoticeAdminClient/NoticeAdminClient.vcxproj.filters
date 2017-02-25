@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\protocol">
+      <UniqueIdentifier>{3382e5ed-1199-4bfa-9c00-9cfb1d872b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\main">
+      <UniqueIdentifier>{3dcb5a0a-6260-48e3-a2b6-fa06fe5c2a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\client">
+      <UniqueIdentifier>{f8c9bb42-be85-4325-8d32-893a61f038ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\config">
+      <UniqueIdentifier>{d6e08838-a077-45f7-9bdf-4fd7093609f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tcp_client.cpp">
+      <Filter>소스 파일\client</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\main</Filter>
+    </ClCompile>
+    <ClCompile Include="chat_protobuf.pb.cc">
+      <Filter>소스 파일\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>소스 파일\config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>소스 파일\config</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_client.h">
+      <Filter>소스 파일\client</Filter>
+    </ClInclude>
+    <ClInclude Include="chat_protocol.h">
+      <Filter>소스 파일\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="chat_protobuf.pb.h">
+      <Filter>소스 파일\protocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

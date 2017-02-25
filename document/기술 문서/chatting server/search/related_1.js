@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['connection',['Connection',['../classredispp_1_1_base_reply.html#a54a11fdc71e1679a42fa0c0e3856673d',1,'redispp::BaseReply::Connection()'],['../classredispp_1_1_queued_reply.html#a54a11fdc71e1679a42fa0c0e3856673d',1,'redispp::QueuedReply::Connection()'],['../classredispp_1_1_void_reply.html#a54a11fdc71e1679a42fa0c0e3856673d',1,'redispp::VoidReply::Connection()'],['../classredispp_1_1_bool_reply.html#a54a11fdc71e1679a42fa0c0e3856673d',1,'redispp::BoolReply::Connection()'],['../classredispp_1_1_int_reply.html#a54a11fdc71e1679a42fa0c0e3856673d',1,'redispp::IntReply::Connection()'],['../classredispp_1_1_string_reply.html#a54a11fdc71e1679a42fa0c0e3856673d',1,'redispp::StringReply::Connection()'],['../classredispp_1_1_multi_bulk_enumerator.html#a54a11fdc71e1679a42fa0c0e3856673d',1,'redispp::MultiBulkEnumerator::Connection()']]]
+];

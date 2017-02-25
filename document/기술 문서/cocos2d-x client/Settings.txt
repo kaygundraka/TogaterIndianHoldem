@@ -1,0 +1,2 @@
+*.h, *.cpp -> Input Cococs2d-x Classes Folder
+Resource Folder -> Input Cocos2d-x Resource Folder

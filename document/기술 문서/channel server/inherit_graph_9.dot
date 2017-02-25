@@ -1,0 +1,21 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node44 [label="auto_unlink_hook",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node44 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="redispp::BaseReply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_base_reply.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="redispp::BoolReply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_bool_reply.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="redispp::IntReply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_int_reply.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="redispp::MultiBulkEnumerator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_multi_bulk_enumerator.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="redispp::QueuedReply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_queued_reply.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="redispp::StringReply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_string_reply.html"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="redispp::VoidReply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_void_reply.html"];
+}

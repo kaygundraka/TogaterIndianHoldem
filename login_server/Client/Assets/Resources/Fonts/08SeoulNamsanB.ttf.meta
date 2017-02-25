@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ef1d199503e5b4645b945de3e9ebac1e
+timeCreated: 1485136018
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 120
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 08SeoulNamsan
+  fontNames:
+  - 08SeoulNamsan
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

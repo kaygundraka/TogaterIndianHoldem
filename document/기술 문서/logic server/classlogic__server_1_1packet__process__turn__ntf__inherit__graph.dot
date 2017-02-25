@@ -1,0 +1,8 @@
+digraph "logic_server::packet_process_turn_ntf"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{logic_server::packet\l_process_turn_ntf\n|+ kPublicCardNumber1FieldNumber\l+ kPublicCardNumber2FieldNumber\l+ kOpponentCardNumberField\lNumber\l+ kRemainMoneyFieldNumber\l+ kMyMoneyFieldNumber\l+ kOpponentMoneyFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- public_card_number_1_\l- public_card_number_2_\l- opponent_card_number_\l- remain_money_\l- my_money_\l- opponent_money_\l|+ packet_process_turn_ntf()\l+ ~packet_process_turn_ntf()\l+ packet_process_turn_ntf()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 36 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_public_card\l_number_1()\l- clear_has_public_card\l_number_1()\l- set_has_public_card\l_number_2()\land 11 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Message\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

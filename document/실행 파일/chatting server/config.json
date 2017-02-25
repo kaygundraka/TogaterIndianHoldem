@@ -1,0 +1,10 @@
+{
+    "MAX_SESSION_COUNT" : 1000,
+    
+    "SERVER_PORT" : 8700,
+    "MASTER_BUFFER_LEN" : 8192,
+    
+    "REDIS_IP" : "127.0.0.1",
+    "REDIS_PORT" : "6379",
+    "REDIS_PW" : "password"
+}

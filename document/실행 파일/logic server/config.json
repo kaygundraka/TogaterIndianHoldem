@@ -1,0 +1,14 @@
+{
+    "port": 8600, 
+    "packet_buf_size": "1024",
+    
+    "redis_server_ip": "192.168.1.201",
+    "redis_server_port": "6379",
+    "redis_server_password": "",
+
+    "mysql_server_ip": "192.168.1.251",
+    "mysql_server_port": 3306,
+    "mysql_user" : "togater",
+    "mysql_password" : "togater",
+    "mysql_db_name" : "togater"
+}

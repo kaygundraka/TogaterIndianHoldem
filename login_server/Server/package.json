@@ -1,0 +1,32 @@
+{
+  "name": "garam",
+  "version": "1.0.0",
+  "description": "server for login and register",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "no",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "connect-redis": "^3.2.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "md5": "^2.2.1",
+    "moment": "^2.17.1",
+    "mysql": "^2.12.0",
+    "nodemailer": "^0.7.1",
+    "redis": "^2.6.5",
+    "sha256": "^0.2.0",
+    "uuid": "^3.0.1",
+    "winston": "^2.3.1"
+  }
+}

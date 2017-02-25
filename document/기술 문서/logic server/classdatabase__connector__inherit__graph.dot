@@ -1,0 +1,10 @@
+digraph "database_connector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{database_connector\n|- session_\l- queue_list_\l- is_work\l- work_thread\l|+ init_singleton()\l+ release_singleton()\l+ push_query()\l+ process_queue()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{singleton\< database\l_connector \>\n|# instance\l|+ ~singleton()\l+ init_singleton()\l+ release_singleton()\l+ get_instance()\l# singleton()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsingleton.html"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{multi_thread_sync\<\l database_connector \>\n|- sync\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmulti__thread__sync.html"];
+}

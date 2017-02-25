@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="code\server">
+      <UniqueIdentifier>{fb6050ef-3d03-4b87-8649-97feb129bd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\server\libarary_protobuf">
+      <UniqueIdentifier>{0d1ba853-0d6d-4eb3-beac-84c8d6639644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\server\redis_manager">
+      <UniqueIdentifier>{cfc2979e-ee67-46f8-9f3a-32dd60ce62c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\server\redis_manager\libarary_redispp">
+      <UniqueIdentifier>{07a1cedf-2c1e-4907-a11e-5e1c094e9ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\server\logic_worker">
+      <UniqueIdentifier>{2d35dc8c-3e27-4dc1-afbf-4a4543208ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\system">
+      <UniqueIdentifier>{68215117-c384-4716-90ea-7632dabd6b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\system\interface">
+      <UniqueIdentifier>{1f84339d-fe6a-47ba-8ee7-381bc38e09ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\system\random_generator">
+      <UniqueIdentifier>{9c3448e7-4da2-4334-ab6d-a89452bbbc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\system\configurator">
+      <UniqueIdentifier>{a32baa1e-6441-43ac-9c25-72e36aa3fcb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\system\database_connector">
+      <UniqueIdentifier>{86d9cb71-0787-4ef1-a78f-f6c9e88bf09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\system\log">
+      <UniqueIdentifier>{391de742-dad2-43ff-8cef-1235fab6f9d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="connected_session.cpp">
+      <Filter>code\server</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_server.cpp">
+      <Filter>code\server</Filter>
+    </ClCompile>
+    <ClCompile Include="logic_worker.cpp">
+      <Filter>code\server\logic_worker</Filter>
+    </ClCompile>
+    <ClCompile Include="redispp.cpp">
+      <Filter>code\server\redis_manager\libarary_redispp</Filter>
+    </ClCompile>
+    <ClCompile Include="logic_server.pb.cc">
+      <Filter>code\server\libarary_protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="process_packet.cpp">
+      <Filter>code\server</Filter>
+    </ClCompile>
+    <ClCompile Include="random_generator.cpp">
+      <Filter>code\system\random_generator</Filter>
+    </ClCompile>
+    <ClCompile Include="redis_connector.cpp">
+      <Filter>code\server\redis_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="configurator.cpp">
+      <Filter>code\system\configurator</Filter>
+    </ClCompile>
+    <ClCompile Include="database_connector.cpp">
+      <Filter>code\system\database_connector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="connected_session.h">
+      <Filter>code\server</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_server.h">
+      <Filter>code\server</Filter>
+    </ClInclude>
+    <ClInclude Include="logic_worker.h">
+      <Filter>code\server\logic_worker</Filter>
+    </ClInclude>
+    <ClInclude Include="redispp.h">
+      <Filter>code\server\redis_manager\libarary_redispp</Filter>
+    </ClInclude>
+    <ClInclude Include="logic_server.pb.h">
+      <Filter>code\server\libarary_protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="random_generator.h">
+      <Filter>code\system\random_generator</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>code\system\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="critical_section.h">
+      <Filter>code\system\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="redis_connector.h">
+      <Filter>code\server\redis_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="configurator.h">
+      <Filter>code\system\configurator</Filter>
+    </ClInclude>
+    <ClInclude Include="database_connector.h">
+      <Filter>code\system\database_connector</Filter>
+    </ClInclude>
+    <ClInclude Include="pre_headers.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>code\system\log</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

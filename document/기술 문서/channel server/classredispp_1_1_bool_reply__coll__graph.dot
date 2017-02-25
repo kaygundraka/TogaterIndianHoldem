@@ -1,0 +1,20 @@
+digraph "redispp::BoolReply"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{redispp::BoolReply\n|- storedResult\l|+ BoolReply()\l+ ~BoolReply()\l+ BoolReply()\l+ operator=()\l+ result()\l+ operator bool()\l# readResult()\l- BoolReply()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{redispp::BaseReply\n||+ BaseReply()\l+ BaseReply()\l+ operator=()\l+ ~BaseReply()\l# readResult()\l# clearPendingResults()\l# BaseReply()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_base_reply.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{auto_unlink_hook\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #conn" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{redispp::Connection\n|+ kDefaultBufferSize\l- connection\l- ioStream\l- buffer\l- outstandingReplies\l|+ Connection()\l+ Connection()\l+ ~Connection()\l+ quit()\l+ authenticate()\l+ exists()\l+ del()\l+ type()\l+ keys()\l+ randomKey()\land 61 more...\l- readStatusCodeReply()\l- readStatusCodeReply()\l- readIntegerReply()\l- readBulkReply()\l- readBulkReply()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\land 83 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_connection.html"];
+  Node7 -> Node6 [color="grey25",fontsize="10",style="solid",label=" -transaction" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{redispp::Transaction\n||+ Transaction()\l+ ~Transaction()\l+ commit()\l+ abort()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_transaction.html"];
+  Node8 -> Node7 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{noncopyable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node7 [color="grey25",fontsize="10",style="solid",label=" -replies" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{redispp::QueuedReply\n|- count\l- state\l|+ QueuedReply()\l+ ~QueuedReply()\l# readResult()\l- QueuedReply()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_queued_reply.html"];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 -> Node7 [color="grey25",fontsize="10",style="solid",label=" -conn" ,arrowhead="odiamond",fontname="Helvetica"];
+}

@@ -1,0 +1,27 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="Message",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node15 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="chat_server::packet\l_chat_normal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__chat__normal.html"];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="chat_server::packet\l_chat_notice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__chat__notice.html"];
+  Node15 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="chat_server::packet\l_chat_room",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__chat__room.html"];
+  Node15 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="chat_server::packet\l_chat_whisper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__chat__whisper.html"];
+  Node15 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="chat_server::packet\l_enter_match_ntf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__enter__match__ntf.html"];
+  Node15 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="chat_server::packet\l_leave_match_ntf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__leave__match__ntf.html"];
+  Node15 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="chat_server::packet\l_logout_ans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__logout__ans.html"];
+  Node15 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="chat_server::packet\l_logout_req",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__logout__req.html"];
+  Node15 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="chat_server::packet\l_verify_ans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__verify__ans.html"];
+  Node15 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="chat_server::packet\l_verify_req",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchat__server_1_1packet__verify__req.html"];
+}

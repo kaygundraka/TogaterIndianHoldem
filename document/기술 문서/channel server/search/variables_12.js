@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['search',['SEARCH',['../classchannel__server_1_1packet__friends__req.html#a081d97473108db916bb5bbd733d55ea6',1,'channel_server::packet_friends_req']]],
+  ['search_5ffail',['SEARCH_FAIL',['../classchannel__server_1_1packet__friends__ans.html#abdbecbcfbed96f101b2bf615b52d7c5f',1,'channel_server::packet_friends_ans']]],
+  ['search_5fsuccess',['SEARCH_SUCCESS',['../classchannel__server_1_1packet__friends__ans.html#a4613afa26ac4eacd6254b48506ae780c',1,'channel_server::packet_friends_ans']]],
+  ['send_5fdata_5fqueue_5f',['send_data_queue_',['../classsession.html#a74521db2f4881c8d7f3d9d38f757fdaf',1,'session']]],
+  ['seq_5fnumber_5f',['seq_number_',['../classtcp__server.html#a66b9b1846fe26cb323d29cea46bb344d',1,'tcp_server']]],
+  ['session_5fid_5f',['session_id_',['../classsession.html#ac484f638fc2ecb44a1f17d0fbcdd6756',1,'session']]],
+  ['session_5flist_5f',['session_list_',['../classtcp__server.html#aa43ddd1f24654cee80674cb395e15ae2',1,'tcp_server']]],
+  ['session_5fqueue_5f',['session_queue_',['../classtcp__server.html#af88a5610d86e90dfff250f2f5c414b7c',1,'tcp_server']]],
+  ['session_5fqueue_5fmtx',['session_queue_mtx',['../classtcp__server.html#a8ec98ca3b42d7ed53bc8e21c6af4c39f',1,'tcp_server']]],
+  ['size',['size',['../structpacket__header.html#ac306337c4556d64748a3731fc1af768f',1,'packet_header']]],
+  ['socket_5f',['socket_',['../classsession.html#a3b20a630b03145d64d20ea806ccec7b7',1,'session']]],
+  ['sockfd',['sockFd',['../classredispp_1_1_client_socket.html#aa4fc6fbd93094cfc7c2bf3dd248a8c5d',1,'redispp::ClientSocket']]],
+  ['spot',['spot',['../classredispp_1_1_buffer.html#a03678e2770d69192ca36d96d8f6c47e4',1,'redispp::Buffer']]],
+  ['stat_5f',['stat_',['../classsession.html#af9752975c8c34ea52f51689abf084c0d',1,'session']]],
+  ['state',['state',['../classredispp_1_1_queued_reply.html#abe0d3fac4432d34e63fdd584886f43b2',1,'redispp::QueuedReply']]],
+  ['static_5fdescriptor_5finitializer_5fchannel_5f5fprotobuf_5f2eproto_5f',['static_descriptor_initializer_channel_5fprotobuf_2eproto_',['../namespacechannel__server.html#acf50aac57b692a132f5ccdb0b61a87ab',1,'channel_server']]],
+  ['storedresult',['storedResult',['../classredispp_1_1_void_reply.html#a5d5f31a856c5a4e85c87d5c7f50b016b',1,'redispp::VoidReply::storedResult()'],['../classredispp_1_1_bool_reply.html#a18fb9ddb07d4c8491cb293c8a15a629f',1,'redispp::BoolReply::storedResult()'],['../classredispp_1_1_int_reply.html#acd05cfd9775e6f945e222485796b9741',1,'redispp::IntReply::storedResult()'],['../classredispp_1_1_string_reply.html#aea5178859d0d20e92b83d02320303748',1,'redispp::StringReply::storedResult()']]],
+  ['streambuf',['streamBuf',['../classredispp_1_1_client_socket.html#a3059885523d8053011d063c6b7b29e5d',1,'redispp::ClientSocket']]],
+  ['success_5f',['success_',['../classchannel__server_1_1packet__join__ans.html#a77089248f3bafbd5228ef09dc2f63888',1,'channel_server::packet_join_ans::success_()'],['../classchannel__server_1_1packet__play__rank__game__ans.html#abb3ce1a1795f770d437816e974510e17',1,'channel_server::packet_play_rank_game_ans::success_()']]]
+];

@@ -1,0 +1,13 @@
+digraph "redispp::ClientSocket::StreamBuf"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{redispp::ClientSocket\l::StreamBuf\n|- outBuffer\l- inBuffer\l|+ StreamBuf()\l+ overflow()\l+ xsputn()\l+ sync()\l+ underflow()\l+ xsgetn()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{std::streambuf\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -conn" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{redispp::ClientSocket\n|- sockFd\l|+ ClientSocket()\l+ ClientSocket()\l+ tcpNoDelay()\l+ write()\l+ read()\l+ ~ClientSocket()\l+ getStreamBuf()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_client_socket.html"];
+  Node5 -> Node4 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{boost::noncopyable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node4 [color="grey25",fontsize="10",style="solid",label=" -streamBuf" ,arrowhead="odiamond",fontname="Helvetica"];
+}

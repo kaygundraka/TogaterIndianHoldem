@@ -1,0 +1,16 @@
+digraph "C:/git/temp/chatting_server/GameChattingServer/GameChattingServer/log_manager.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node41 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/log_manager.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node41 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/log_manager.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$log__manager_8cpp.html"];
+  Node41 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html"];
+  Node41 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/redis\l_connector.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$redis__connector_8cpp.html"];
+  Node41 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/tcp_server.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tcp__server_8cpp.html"];
+  Node41 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/tcp_session.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tcp__session_8cpp.html"];
+}

@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['packet_5ffriends_5fans_5fans_5ftype_5fadd_5ffail',['packet_friends_ans_ans_type_ADD_FAIL',['../namespacechannel__server.html#a255679f97160548b29a82fbe3aa73bfdaf8c085534694ba5fe53d160f05644571',1,'channel_server']]],
+  ['packet_5ffriends_5fans_5fans_5ftype_5fadd_5fsuccess',['packet_friends_ans_ans_type_ADD_SUCCESS',['../namespacechannel__server.html#a255679f97160548b29a82fbe3aa73bfda73e6a927a733378e7859c05f8a2081e8',1,'channel_server']]],
+  ['packet_5ffriends_5fans_5fans_5ftype_5fdel_5ffail',['packet_friends_ans_ans_type_DEL_FAIL',['../namespacechannel__server.html#a255679f97160548b29a82fbe3aa73bfda54587c68d97bec29a446d728352cb285',1,'channel_server']]],
+  ['packet_5ffriends_5fans_5fans_5ftype_5fdel_5fsuccess',['packet_friends_ans_ans_type_DEL_SUCCESS',['../namespacechannel__server.html#a255679f97160548b29a82fbe3aa73bfdacc21658f769022d6106085d82f4944e7',1,'channel_server']]],
+  ['packet_5ffriends_5fans_5fans_5ftype_5fsearch_5ffail',['packet_friends_ans_ans_type_SEARCH_FAIL',['../namespacechannel__server.html#a255679f97160548b29a82fbe3aa73bfda88337cd97bee15b3f90112d7ae371708',1,'channel_server']]],
+  ['packet_5ffriends_5fans_5fans_5ftype_5fsearch_5fsuccess',['packet_friends_ans_ans_type_SEARCH_SUCCESS',['../namespacechannel__server.html#a255679f97160548b29a82fbe3aa73bfda5e7da854a6b1e8f54c6a9cdaec09df7c',1,'channel_server']]],
+  ['packet_5ffriends_5freq_5freq_5ftype_5fadd',['packet_friends_req_req_type_ADD',['../namespacechannel__server.html#a86860448aaffd53b39cb62dfc8258569a48fe6f75b7a0d46b07a3d1cc4f99cc46',1,'channel_server']]],
+  ['packet_5ffriends_5freq_5freq_5ftype_5fdel',['packet_friends_req_req_type_DEL',['../namespacechannel__server.html#a86860448aaffd53b39cb62dfc8258569aea1730cd22cebd98f9571d0437e2134c',1,'channel_server']]],
+  ['packet_5ffriends_5freq_5freq_5ftype_5fsearch',['packet_friends_req_req_type_SEARCH',['../namespacechannel__server.html#a86860448aaffd53b39cb62dfc8258569ab2a195436208ba74e6f7604d4b8f1d52',1,'channel_server']]],
+  ['packet_5fplay_5ffriends_5fgame_5frel_5freq_5ftype_5faccept',['packet_play_friends_game_rel_req_type_ACCEPT',['../namespacechannel__server.html#a891dcc043b8b1dcebb58a976b6eb2177a400b7328ec20fe7ddd1efedc821c61a5',1,'channel_server']]],
+  ['packet_5fplay_5ffriends_5fgame_5frel_5freq_5ftype_5fapply',['packet_play_friends_game_rel_req_type_APPLY',['../namespacechannel__server.html#a891dcc043b8b1dcebb58a976b6eb2177a930bc9093cd0b979534432b4cced58f6',1,'channel_server']]],
+  ['packet_5fplay_5ffriends_5fgame_5frel_5freq_5ftype_5fdeny',['packet_play_friends_game_rel_req_type_DENY',['../namespacechannel__server.html#a891dcc043b8b1dcebb58a976b6eb2177aa11e375c298027fb3c7bbc885982deb6',1,'channel_server']]],
+  ['platinum',['platinum',['../namespacechannel__server.html#a612df9f2cce6f374e563089c5d694ef0ac39fb7e1baa54145788127088e9c5a84',1,'channel_server']]],
+  ['play_5ffriends_5frel',['PLAY_FRIENDS_REL',['../namespacechannel__server.html#ac51c6f725a9b621aa0603456d43b2e7ba3564d80db4d7322687a3805e040094ae',1,'channel_server']]],
+  ['play_5frank_5fans',['PLAY_RANK_ANS',['../namespacechannel__server.html#ac51c6f725a9b621aa0603456d43b2e7ba689af2d8cb7f2ad44b23f54c0a38ca1d',1,'channel_server']]],
+  ['play_5frank_5freq',['PLAY_RANK_REQ',['../namespacechannel__server.html#ac51c6f725a9b621aa0603456d43b2e7ba11c6656e9d45595fe8de63cc7ff427e4',1,'channel_server']]]
+];

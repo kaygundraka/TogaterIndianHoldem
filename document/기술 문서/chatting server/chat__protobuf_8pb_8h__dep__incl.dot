@@ -1,0 +1,47 @@
+digraph "C:/git/temp/chatting_server/GameChattingServer/GameChattingServer/chat_protobuf.pb.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node12 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/chat\l_protobuf.pb.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/chat\l_protobuf.pb.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chat__protobuf_8pb_8cc.html"];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/preheaders.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$preheaders_8h.html"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/chat\l_protocol.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$chat__protocol_8h.html"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/tcp_session.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tcp__session_8h.html"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/tcp_server.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tcp__server_8h.html"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html"];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/tcp_server.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tcp__server_8cpp.html"];
+  Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/tcp_session.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tcp__session_8cpp.html"];
+  Node16 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/config.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$config_8h.html"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/config.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$config_8cpp.html"];
+  Node21 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/redis\l_connector.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$redis__connector_8cpp.html"];
+  Node21 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/log_manager.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$log__manager_8h.html"];
+  Node24 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/log_manager.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$log__manager_8cpp.html"];
+  Node24 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="C:/git/temp/chatting\l_server/GameChattingServer\l/GameChattingServer/redis\l_connector.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$redis__connector_8h.html"];
+  Node26 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

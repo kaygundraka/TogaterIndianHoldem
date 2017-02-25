@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['target_5fid',['target_id',['../classchannel__server_1_1packet__play__friends__game__rel.html#a08780b63a74bb51f8ecb2c0e815d0718',1,'channel_server::packet_play_friends_game_rel']]],
+  ['target_5fid_5f',['target_id_',['../classchannel__server_1_1packet__play__friends__game__rel.html#a5ac5cd8a12dbf182446a13cf05ae1cfb',1,'channel_server::packet_play_friends_game_rel']]],
+  ['target_5finfo',['target_info',['../classchannel__server_1_1packet__friends__req.html#ad77efcc2e18ef927fb4193c0a6ce3925',1,'channel_server::packet_friends_req']]],
+  ['target_5finfo_5f',['target_info_',['../classchannel__server_1_1packet__friends__req.html#a9dd53078d52a16d3e81331f323222b1e',1,'channel_server::packet_friends_req']]],
+  ['tcp_5fserver',['tcp_server',['../classtcp__server.html',1,'tcp_server'],['../classtcp__server.html#ab23aafc9d02c135e1f3a0ad66ee70e57',1,'tcp_server::tcp_server()']]],
+  ['tcpnodelay',['tcpNoDelay',['../classredispp_1_1_client_socket.html#aef9a7a2d5f36bbe4814a9c77b9964f67',1,'redispp::ClientSocket']]],
+  ['temp_5fbuffer_5f',['temp_buffer_',['../classsession.html#a4d9967fc9d9f258a554cf0a9201dc360',1,'session']]],
+  ['timer_5fvalue_5f',['timer_value_',['../classmatch__manager.html#a7c4c2bea5936db34c69045c2d8d3172a',1,'match_manager']]],
+  ['token',['token',['../classchannel__server_1_1packet__join__req.html#a3b23b85a89aefa86175722a2b0ef7e27',1,'channel_server::packet_join_req']]],
+  ['token_5f',['token_',['../classchannel__server_1_1packet__join__req.html#a12cfd5f0d7bc08f5272303efbb7563e7',1,'channel_server::packet_join_req::token_()'],['../classsession.html#a9b44b39712999ed3ddb6720acdf9ea77',1,'session::token_()']]],
+  ['token_5fdel',['token_del',['../classtcp__server.html#a62e00918882646b41ccebc9ea740cbc8',1,'tcp_server']]],
+  ['token_5fsize_5f',['token_size_',['../classsession.html#a19729c90519726009ed6a91cfe8e06ba',1,'session']]],
+  ['total_5fgames',['total_games',['../classchannel__server_1_1game__history.html#a3f0b4f546e186592ae8d1fe90d8d5917',1,'channel_server::game_history']]],
+  ['total_5fgames_5f',['total_games_',['../classchannel__server_1_1game__history.html#ad73fb22806b78133ea0ec91eb42c517b',1,'channel_server::game_history']]],
+  ['transaction',['Transaction',['../classredispp_1_1_transaction.html',1,'redispp::Transaction'],['../classredispp_1_1_queued_reply.html#a49982aa325e19f0956d42fde9132caa2',1,'redispp::QueuedReply::Transaction()'],['../classredispp_1_1_connection.html#a49982aa325e19f0956d42fde9132caa2',1,'redispp::Connection::Transaction()'],['../classredispp_1_1_transaction.html#aa2e27079a3ee325d8d48c980194192f0',1,'redispp::Transaction::Transaction()'],['../classredispp_1_1_connection.html#a3450e5590c0cb411a8d9669c79053e3b',1,'redispp::Connection::transaction()']]],
+  ['transactionstate',['TransactionState',['../namespaceredispp.html#a289cb2698cb856b81a419c9a31ce70c9',1,'redispp']]],
+  ['ttl',['ttl',['../classredispp_1_1_connection.html#a2468d8aa52d49ee34818231b86b92b86',1,'redispp::Connection']]],
+  ['type',['type',['../structpacket__header.html#a40078cf0e2526381d5a6b950b1d5bbe7',1,'packet_header::type()'],['../classchannel__server_1_1packet__friends__req.html#a059e7ea49c6eceefb698925886dab12a',1,'channel_server::packet_friends_req::type()'],['../classchannel__server_1_1packet__friends__ans.html#aa0d16c9f2d6e226b78e7c96ea7c58e8d',1,'channel_server::packet_friends_ans::type()'],['../classchannel__server_1_1packet__play__friends__game__rel.html#a04e667c6f34cf19ac8f545e299418505',1,'channel_server::packet_play_friends_game_rel::type()'],['../classredispp_1_1_connection.html#a7dc4cc69d9bbfa7f1ed412927b4a7476',1,'redispp::Connection::type()'],['../namespaceredispp.html#a657c81fa8d00e17ce464a848f218ce09',1,'redispp::Type()']]],
+  ['type_5f',['type_',['../classchannel__server_1_1packet__friends__req.html#a532a57b8031cfc1d9de56d6b503a7aae',1,'channel_server::packet_friends_req::type_()'],['../classchannel__server_1_1packet__friends__ans.html#ae87b1200f2295c09dc819ddf1cd83aa4',1,'channel_server::packet_friends_ans::type_()'],['../classchannel__server_1_1packet__play__friends__game__rel.html#a20df23160cde11040bef07ce6884e0a0',1,'channel_server::packet_play_friends_game_rel::type_()']]]
+];

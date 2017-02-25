@@ -1,0 +1,17 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="true_type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="google::protobuf::is\l_proto_enum\< ::channel\l_server::message_type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgoogle_1_1protobuf_1_1is__proto__enum_3_01_1_1channel__server_1_1message__type_01_4.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="google::protobuf::is\l_proto_enum\< ::channel\l_server::packet_friends\l_ans_ans_type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgoogle_1_1protobuf_1_1is__proto__enum_3_01_1_1channel__server_1_1packet__friends__ans__ans__type_01_4.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="google::protobuf::is\l_proto_enum\< ::channel\l_server::packet_friends\l_req_req_type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgoogle_1_1protobuf_1_1is__proto__enum_3_01_1_1channel__server_1_1packet__friends__req__req__type_01_4.html"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="google::protobuf::is\l_proto_enum\< ::channel\l_server::packet_play_friends\l_game_rel_req_type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgoogle_1_1protobuf_1_1is__proto__enum_3_01_1_1channel__server_1_1packet__play__friends__game__rel__req__type_01_4.html"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="google::protobuf::is\l_proto_enum\< ::channel\l_server::rating \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgoogle_1_1protobuf_1_1is__proto__enum_3_01_1_1channel__server_1_1rating_01_4.html"];
+}

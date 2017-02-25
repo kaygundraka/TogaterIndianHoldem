@@ -1,0 +1,8 @@
+digraph "channel_server::packet_friends_req"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{channel_server::packet\l_friends_req\n|+ ADD\l+ DEL\l+ SEARCH\l+ req_type_MIN\l+ req_type_MAX\l+ req_type_ARRAYSIZE\l+ kTypeFieldNumber\l+ kTargetInfoFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- target_info_\l- type_\l|+ packet_friends_req()\l+ ~packet_friends_req()\l+ packet_friends_req()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 22 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l+ req_type_IsValid()\l+ req_type_descriptor()\l+ req_type_Name()\l+ req_type_Parse()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_type()\l- clear_has_type()\l- set_has_target_info()\l- clear_has_target_info()\l- RequiredFieldsByteSizeFallback()\l- InitAsDefaultInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Message\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

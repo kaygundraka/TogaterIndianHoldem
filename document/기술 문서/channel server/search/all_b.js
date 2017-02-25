@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['kbasicinfofieldnumber',['kBasicInfoFieldNumber',['../classchannel__server_1_1user__info.html#a495ce9bbb4e8a425463bbedbb365c8ee',1,'channel_server::user_info']]],
+  ['kdefaultbuffersize',['kDefaultBufferSize',['../classredispp_1_1_connection.html#ae9f95bd16be9db3ad52eec5db774c057',1,'redispp::Connection']]],
+  ['kerrorstringfieldnumber',['kErrorStringFieldNumber',['../classchannel__server_1_1packet__error__message.html#a12fe649b61183361ed64377c53939338',1,'channel_server::packet_error_message']]],
+  ['keys',['keys',['../classredispp_1_1_connection.html#ac0a29a151b3fb2db04b0d74ed3d280b2',1,'redispp::Connection']]],
+  ['kfriendsinfofieldnumber',['kFriendsInfoFieldNumber',['../classchannel__server_1_1packet__friends__ans.html#a89f82defc5cf45f5ee5ed6448d35720a',1,'channel_server::packet_friends_ans']]],
+  ['kfriendslistfieldnumber',['kFriendsListFieldNumber',['../classchannel__server_1_1packet__join__ans.html#afeed75fe74d55e5eb7307c093a6a4967',1,'channel_server::packet_join_ans']]],
+  ['kgamehistoryfieldnumber',['kGameHistoryFieldNumber',['../classchannel__server_1_1user__info.html#aa90c9e88b18930a06e8d1311c5b1084e',1,'channel_server::user_info']]],
+  ['khistoryfieldnumber',['kHistoryFieldNumber',['../classchannel__server_1_1packet__join__ans.html#a09e941f12911af2808b7f6bb83ff66cb',1,'channel_server::packet_join_ans']]],
+  ['kidfieldnumber',['kIdFieldNumber',['../classchannel__server_1_1basic__info.html#a12e904f555197b48d3eeccf06ba65bf9',1,'channel_server::basic_info::kIdFieldNumber()'],['../classchannel__server_1_1packet__join__req.html#aa3f1b350b03a9115aa0eb901a7471e7d',1,'channel_server::packet_join_req::kIdFieldNumber()']]],
+  ['klosefieldnumber',['kLoseFieldNumber',['../classchannel__server_1_1game__history.html#aee9355f1919fc77ebd76c2a871712ca0',1,'channel_server::game_history']]],
+  ['knonefieldnumber',['kNoneFieldNumber',['../classchannel__server_1_1packet__logout__req.html#ab09252acb791564573ee35292521d4e6',1,'channel_server::packet_logout_req::kNoneFieldNumber()'],['../classchannel__server_1_1packet__logout__ans.html#a2b92ff24b8702c559365fd512aad04ff',1,'channel_server::packet_logout_ans::kNoneFieldNumber()'],['../classchannel__server_1_1packet__play__rank__game__req.html#ac0502b11d984915492ac28af68328a9c',1,'channel_server::packet_play_rank_game_req::kNoneFieldNumber()'],['../classchannel__server_1_1packet__matching__confirm.html#a2b1e98de017819055bfd3a7e6a7339a9',1,'channel_server::packet_matching_confirm::kNoneFieldNumber()']]],
+  ['konlinefieldnumber',['kOnlineFieldNumber',['../classchannel__server_1_1packet__friends__ans.html#a4bbd5bd0c2d3eafa5257b9c9a75b812f',1,'channel_server::packet_friends_ans']]],
+  ['kopponentplayerfieldnumber',['kOpponentPlayerFieldNumber',['../classchannel__server_1_1packet__matching__complete__ans.html#a0026839fbd25fd54d103633cfbdbbe1a',1,'channel_server::packet_matching_complete_ans']]],
+  ['kratingscorefieldnumber',['kRatingScoreFieldNumber',['../classchannel__server_1_1game__history.html#a0640d6593523c88883a55c641d4ae8ef',1,'channel_server::game_history']]],
+  ['kroomkeyfieldnumber',['kRoomKeyFieldNumber',['../classchannel__server_1_1packet__matching__complete__ans.html#afa925c1d717364d4b734aaef317e3e83',1,'channel_server::packet_matching_complete_ans']]],
+  ['ksuccessfieldnumber',['kSuccessFieldNumber',['../classchannel__server_1_1packet__join__ans.html#a4c1460a15caf14520a689543de9dee93',1,'channel_server::packet_join_ans::kSuccessFieldNumber()'],['../classchannel__server_1_1packet__play__rank__game__ans.html#a67fd4b23100b52cb54e6200fd9a31774',1,'channel_server::packet_play_rank_game_ans::kSuccessFieldNumber()']]],
+  ['ktargetidfieldnumber',['kTargetIdFieldNumber',['../classchannel__server_1_1packet__play__friends__game__rel.html#a004814cf8b37eb20732b305af23c167b',1,'channel_server::packet_play_friends_game_rel']]],
+  ['ktargetinfofieldnumber',['kTargetInfoFieldNumber',['../classchannel__server_1_1packet__friends__req.html#a99abd16e74397791d1f76d7b7ca787f3',1,'channel_server::packet_friends_req']]],
+  ['ktokenfieldnumber',['kTokenFieldNumber',['../classchannel__server_1_1packet__join__req.html#a28f5e5f42960e03f2dd157e7610628b8',1,'channel_server::packet_join_req']]],
+  ['ktotalgamesfieldnumber',['kTotalGamesFieldNumber',['../classchannel__server_1_1game__history.html#aa6eb972765a43e135eb6031783eac34d',1,'channel_server::game_history']]],
+  ['ktypefieldnumber',['kTypeFieldNumber',['../classchannel__server_1_1packet__friends__req.html#aaabed8a2dd250cfde795bee3dffde9a9',1,'channel_server::packet_friends_req::kTypeFieldNumber()'],['../classchannel__server_1_1packet__friends__ans.html#a0a5aceda421e37c6e76f31ad0600ee1c',1,'channel_server::packet_friends_ans::kTypeFieldNumber()'],['../classchannel__server_1_1packet__play__friends__game__rel.html#ad5ce7e7196477153769e731b3084a752',1,'channel_server::packet_play_friends_game_rel::kTypeFieldNumber()']]],
+  ['kwinfieldnumber',['kWinFieldNumber',['../classchannel__server_1_1game__history.html#aa3c8d60b3eafa280de3948c849b86bab',1,'channel_server::game_history']]]
+];

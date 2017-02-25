@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['abort',['abort',['../classredispp_1_1_transaction.html#a4f319d2659aea7cec443e7d110dad0f2',1,'redispp::Transaction']]],
+  ['aborted',['Aborted',['../namespaceredispp.html#a289cb2698cb856b81a419c9a31ce70c9a91b6cb51b232cde00cd0a3f52283a62a',1,'redispp']]],
+  ['accept',['ACCEPT',['../classchannel__server_1_1packet__play__friends__game__rel.html#a1c2c04a15af5083b215f9c95da1a403b',1,'channel_server::packet_play_friends_game_rel']]],
+  ['accepting_5fflag_5f',['accepting_flag_',['../classtcp__server.html#ae01761c4daeafc17cd2c62fd1ef3239d',1,'tcp_server']]],
+  ['acceptor_5f',['acceptor_',['../classtcp__server.html#a331e1ad8044494f67424cf501958b069',1,'tcp_server']]],
+  ['add',['ADD',['../classchannel__server_1_1packet__friends__req.html#a649262bf0fe53b8c79ac411e2a9f34b9',1,'channel_server::packet_friends_req']]],
+  ['add_5ffail',['ADD_FAIL',['../classchannel__server_1_1packet__friends__ans.html#ad6b8639b64ca0d008d69922fb7b7543b',1,'channel_server::packet_friends_ans']]],
+  ['add_5ffriends',['add_friends',['../classfriends__manager.html#a021706e4a19f3b82515568a7fb94918e',1,'friends_manager']]],
+  ['add_5ffriends_5flist',['add_friends_list',['../classchannel__server_1_1packet__join__ans.html#a22727f8b3b5adf78442e760c262f036e',1,'channel_server::packet_join_ans']]],
+  ['add_5fid_5fin_5fuser_5fmap',['add_id_in_user_map',['../classfriends__manager.html#a89b0e8496ddd7f8a2f74b04e994cfa60',1,'friends_manager']]],
+  ['add_5fsuccess',['ADD_SUCCESS',['../classchannel__server_1_1packet__friends__ans.html#a45eac75d800f0825a03ebd188f90456f',1,'channel_server::packet_friends_ans']]],
+  ['add_5fuser_5ffrineds_5flist',['add_user_frineds_list',['../classdb__connector.html#aba8635ef23f96555faf91c55a431a7ef',1,'db_connector']]],
+  ['ans_5ftype',['ans_type',['../classchannel__server_1_1packet__friends__ans.html#af5f7c2dd3566dcd4f1ecb5bc598dfe6d',1,'channel_server::packet_friends_ans']]],
+  ['ans_5ftype_5farraysize',['ans_type_ARRAYSIZE',['../classchannel__server_1_1packet__friends__ans.html#a55ef2202509a8b0a3c201f5797b0a34b',1,'channel_server::packet_friends_ans']]],
+  ['ans_5ftype_5fdescriptor',['ans_type_descriptor',['../classchannel__server_1_1packet__friends__ans.html#a7a2ac97be0944b0f64a7511d76b7d5cf',1,'channel_server::packet_friends_ans']]],
+  ['ans_5ftype_5fisvalid',['ans_type_IsValid',['../classchannel__server_1_1packet__friends__ans.html#a756826d47d15dbd9c4c31099026f0cc3',1,'channel_server::packet_friends_ans']]],
+  ['ans_5ftype_5fmax',['ans_type_MAX',['../classchannel__server_1_1packet__friends__ans.html#a68cc5a6c3f78d4417a9d82ab17b03109',1,'channel_server::packet_friends_ans']]],
+  ['ans_5ftype_5fmin',['ans_type_MIN',['../classchannel__server_1_1packet__friends__ans.html#ac63ced7713b2c6b9b826f9e91afe107e',1,'channel_server::packet_friends_ans']]],
+  ['ans_5ftype_5fname',['ans_type_Name',['../classchannel__server_1_1packet__friends__ans.html#ad25608f5f4bd7c0ef270652ba49d286c',1,'channel_server::packet_friends_ans']]],
+  ['ans_5ftype_5fparse',['ans_type_Parse',['../classchannel__server_1_1packet__friends__ans.html#a9287dd9ad9670437ff1266f48099f35a',1,'channel_server::packet_friends_ans']]],
+  ['append',['append',['../classredispp_1_1_connection.html#a01113755f30061321463c0486a281507',1,'redispp::Connection']]],
+  ['apply',['APPLY',['../classchannel__server_1_1packet__play__friends__game__rel.html#a3c0d99d817c28f015dc88ec4f67bbf0f',1,'channel_server::packet_play_friends_game_rel']]],
+  ['authenticate',['authenticate',['../classredispp_1_1_connection.html#ae32906ac65186bd2adaf5ebb4a993926',1,'redispp::Connection']]],
+  ['auto_5funlink_5fhook',['auto_unlink_hook',['../namespaceredispp.html#a2ca856971c96ccd9dfd70eaf2f84a44b',1,'redispp']]]
+];

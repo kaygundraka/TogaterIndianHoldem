@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['safe_5fdisconnect_5f',['safe_disconnect_',['../classconnected__session.html#a16a29708994098e791b0acca3daed712',1,'connected_session']]],
+  ['send_5fbuf_5f',['send_buf_',['../classconnected__session.html#a7ef910030edf4e23018c73aca24ff126',1,'connected_session']]],
+  ['server',['server',['../main_8cpp.html#a2cd8b43c6dc2cad80da2a7e1b3bbfd1d',1,'main.cpp']]],
+  ['service',['service',['../main_8cpp.html#a775feefcc7a08a041393696e7aa9b569',1,'main.cpp']]],
+  ['session_5f',['session_',['../classdatabase__connector.html#a3e13debab210a09d521ae794be8ba17f',1,'database_connector::session_()'],['../struct___p_l_a_y_e_r___i_n_f_o.html#a654563cb637cf472e2b46e37d7ef52b4',1,'_PLAYER_INFO::session_()']]],
+  ['size',['size',['../struct___m_e_s_s_a_g_e___h_e_a_d_e_r.html#aabafd6c0f4446a91eddadb29a55c056e',1,'_MESSAGE_HEADER']]],
+  ['socket_5f',['socket_',['../classconnected__session.html#aef511e35d5e2417b4624934b70202770',1,'connected_session']]],
+  ['sockfd',['sockFd',['../classredispp_1_1_client_socket.html#aa4fc6fbd93094cfc7c2bf3dd248a8c5d',1,'redispp::ClientSocket']]],
+  ['spot',['spot',['../classredispp_1_1_buffer.html#a03678e2770d69192ca36d96d8f6c47e4',1,'redispp::Buffer']]],
+  ['sql_5fresult_5f',['sql_result_',['../struct___d_b___c_o_n_n_e_c_t_i_o_n.html#a46c7e05d713833152578c3ef9737a718',1,'_DB_CONNECTION']]],
+  ['state',['state',['../classredispp_1_1_queued_reply.html#abe0d3fac4432d34e63fdd584886f43b2',1,'redispp::QueuedReply']]],
+  ['state_5f',['state_',['../classlogic__server_1_1packet__game__state__ntf.html#a649e5dd27ed06ed53c53df7bc985420a',1,'logic_server::packet_game_state_ntf::state_()'],['../struct___r_o_o_m___i_n_f_o.html#a2c68afc3a427bc599b6e1c5aab920d5b',1,'_ROOM_INFO::state_()']]],
+  ['static_5fdescriptor_5finitializer_5flogic_5f5fserver_5f2eproto_5f',['static_descriptor_initializer_logic_5fserver_2eproto_',['../namespacelogic__server.html#aee0b3faad97006e3c823774d1f3d30db',1,'logic_server']]],
+  ['storedresult',['storedResult',['../classredispp_1_1_void_reply.html#a5d5f31a856c5a4e85c87d5c7f50b016b',1,'redispp::VoidReply::storedResult()'],['../classredispp_1_1_bool_reply.html#a18fb9ddb07d4c8491cb293c8a15a629f',1,'redispp::BoolReply::storedResult()'],['../classredispp_1_1_int_reply.html#acd05cfd9775e6f945e222485796b9741',1,'redispp::IntReply::storedResult()'],['../classredispp_1_1_string_reply.html#aea5178859d0d20e92b83d02320303748',1,'redispp::StringReply::storedResult()']]],
+  ['str_5f',['str_',['../classlogic__server_1_1packet__echo__ntf.html#a5822b4ca92020b9e3080c6057f312678',1,'logic_server::packet_echo_ntf']]],
+  ['streambuf',['streamBuf',['../classredispp_1_1_client_socket.html#a3059885523d8053011d063c6b7b29e5d',1,'redispp::ClientSocket']]],
+  ['submit_5fcard_5f',['submit_card_',['../struct___p_l_a_y_e_r___i_n_f_o.html#a4c67f2876cbb17f1ce89d835bb5d8467',1,'_PLAYER_INFO']]],
+  ['submit_5fmoney_5f',['submit_money_',['../struct___p_l_a_y_e_r___i_n_f_o.html#a02a010c0bc27a12cec466eb06e9c4a76',1,'_PLAYER_INFO']]],
+  ['sum_5fmoney_5f',['sum_money_',['../struct___p_l_a_y_e_r___i_n_f_o.html#adea910e4d16df1a2a652d10d9e8a2859',1,'_PLAYER_INFO']]],
+  ['sync',['sync',['../classcritical__section.html#a0a7538b879a10482941650dc367e6650',1,'critical_section::sync()'],['../classmulti__thread__sync.html#a41a8d1d58ed61e3127aaca70e6416bc2',1,'multi_thread_sync::sync()']]]
+];

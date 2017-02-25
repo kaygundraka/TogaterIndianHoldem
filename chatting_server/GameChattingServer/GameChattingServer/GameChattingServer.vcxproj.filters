@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\protocol">
+      <UniqueIdentifier>{2f05600a-1ad0-4f48-b2e6-52c2add21250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\main">
+      <UniqueIdentifier>{bcd74fef-dc0b-4e50-ac58-1f834343d35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\server">
+      <UniqueIdentifier>{3d86d7b8-f392-46f2-873a-ad9eceb55502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\redis">
+      <UniqueIdentifier>{743e0a40-161d-40f1-8730-59b3e203ca04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\singleton">
+      <UniqueIdentifier>{146ce8d3-5ea2-4f95-9ee8-e885e9f86e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\config">
+      <UniqueIdentifier>{552c42b4-5975-47bd-86c3-894eb1133238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\preheaders">
+      <UniqueIdentifier>{0cc4e889-8398-48c6-ad31-0cdffd3d3f53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chat_protobuf.pb.cc">
+      <Filter>소스 파일\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_server.cpp">
+      <Filter>소스 파일\server</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_session.cpp">
+      <Filter>소스 파일\server</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\main</Filter>
+    </ClCompile>
+    <ClCompile Include="redispp.cpp">
+      <Filter>소스 파일\redis</Filter>
+    </ClCompile>
+    <ClCompile Include="redis_connector.cpp">
+      <Filter>소스 파일\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="log_manager.cpp">
+      <Filter>소스 파일\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>소스 파일\config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singleton.h">
+      <Filter>소스 파일\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="log_manager.h">
+      <Filter>소스 파일\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="redis_connector.h">
+      <Filter>소스 파일\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_server.h">
+      <Filter>소스 파일\server</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_session.h">
+      <Filter>소스 파일\server</Filter>
+    </ClInclude>
+    <ClInclude Include="chat_protocol.h">
+      <Filter>소스 파일\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="chat_protobuf.pb.h">
+      <Filter>소스 파일\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="redispp.h">
+      <Filter>소스 파일\redis</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>소스 파일\config</Filter>
+    </ClInclude>
+    <ClInclude Include="preheaders.h">
+      <Filter>소스 파일\preheaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

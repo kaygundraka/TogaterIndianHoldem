@@ -1,0 +1,18 @@
+digraph "redispp::BaseReply"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node8 [label="{redispp::BaseReply\n||+ BaseReply()\l+ BaseReply()\l+ operator=()\l+ ~BaseReply()\l# readResult()\l# clearPendingResults()\l# BaseReply()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{auto_unlink_hook\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node8 [color="grey25",fontsize="10",style="solid",label=" #conn" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{redispp::Connection\n|+ kDefaultBufferSize\l- connection\l- ioStream\l- buffer\l- outstandingReplies\l|+ Connection()\l+ Connection()\l+ ~Connection()\l+ quit()\l+ authenticate()\l+ exists()\l+ del()\l+ type()\l+ keys()\l+ randomKey()\land 61 more...\l- readStatusCodeReply()\l- readStatusCodeReply()\l- readIntegerReply()\l- readBulkReply()\l- readBulkReply()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\l- DEFINE_COMMAND()\land 83 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_connection.html"];
+  Node11 -> Node10 [color="grey25",fontsize="10",style="solid",label=" -transaction" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{redispp::Transaction\n||+ Transaction()\l+ ~Transaction()\l+ commit()\l+ abort()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_transaction.html"];
+  Node12 -> Node11 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node12 [label="{noncopyable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node13 -> Node11 [color="grey25",fontsize="10",style="solid",label=" -replies" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node13 [label="{redispp::QueuedReply\n|- count\l- state\l|+ QueuedReply()\l+ ~QueuedReply()\l# readResult()\l- QueuedReply()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classredispp_1_1_queued_reply.html"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 -> Node11 [color="grey25",fontsize="10",style="solid",label=" -conn" ,arrowhead="odiamond",fontname="Helvetica"];
+}

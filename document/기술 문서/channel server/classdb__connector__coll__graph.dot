@@ -1,0 +1,6 @@
+digraph "db_connector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{db_connector\n|- connection_mtx\l- connection_que\l- connection_pool\l- init_instance\l- ip\l- id\l- pwd\l- db_name\l- pool_size\l- port\l|+ db_connector()\l+ ~db_connector()\l+ init()\l+ get_query_user_info()\l+ get_user_friends_list()\l+ add_user_frineds_list()\l+ del_user_frineds_list()\l+ get_connection()\l+ release_connection()\l- reconncet()\l- check_repetition()\l- load_mysql_config()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,29 @@
+{
+    "SESSION_CONFIG" : {
+        "TIMER"    : 10
+    },
+    "LOG_CONFIG": {
+        "MODE": "console"
+    },
+    "REDIS_CONFIG": {
+        "IP": "192.168.1.201",
+        "PORT": "6379",
+        "PWD": "password",
+        "POOL_SIZE": 8
+    },
+    "MYSQL_CONFIG": {
+        "IP": "192.168.1.203",
+        "PORT": 3306,
+        "ID": "root",
+        "PWD": "123123",
+        "DB_NAME": "game",
+        "POOL_SIZE": 8
+    },
+    "SERVER_CONFIG": {
+        "MAX_THREAD": 2,
+        "MAX_BUFFER_LEN": 256,
+        "MAX_TOKEN_SIZE": 32,
+        "MAX_SESSION_COUNT": 10000,
+        "PORT": 8800
+    }
+}

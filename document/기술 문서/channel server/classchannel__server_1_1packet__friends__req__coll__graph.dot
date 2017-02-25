@@ -1,0 +1,11 @@
+digraph "channel_server::packet_friends_req"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{channel_server::packet\l_friends_req\n|+ ADD\l+ DEL\l+ SEARCH\l+ req_type_MIN\l+ req_type_MAX\l+ req_type_ARRAYSIZE\l+ kTypeFieldNumber\l+ kTargetInfoFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- type_\l|+ packet_friends_req()\l+ ~packet_friends_req()\l+ packet_friends_req()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 22 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l+ req_type_IsValid()\l+ req_type_descriptor()\l+ req_type_Name()\l+ req_type_Parse()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_type()\l- clear_has_type()\l- set_has_target_info()\l- clear_has_target_info()\l- RequiredFieldsByteSizeFallback()\l- InitAsDefaultInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Message\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -target_info_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{channel_server::basic_info\n|+ kIdFieldNumber\l- _internal_metadata_\l- _has_bits_\l- _cached_size_\l- id_\l|+ basic_info()\l+ ~basic_info()\l+ basic_info()\l+ operator=()\l+ unknown_fields()\l+ mutable_unknown_fields()\l+ Swap()\l+ New()\l+ New()\l+ CopyFrom()\land 21 more...\l+ descriptor()\l+ default_instance()\l+ internal_default_instance()\l- SharedCtor()\l- SharedDtor()\l- SetCachedSize()\l- InternalSwap()\l- UnsafeMergeFrom()\l- GetArenaNoVirtual()\l- MaybeArenaPtr()\l- set_has_id()\l- clear_has_id()\l- InitAsDefaultInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classchannel__server_1_1basic__info.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+}

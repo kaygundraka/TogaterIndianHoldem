@@ -1,0 +1,14 @@
+{
+    "login_http": "", 
+
+    "logic_server_ip" : "192.168.1.201",
+    "logic_server_port" : "8600",
+
+    "chat_server_ip" : "192.168.1.202",
+    "chat_server_port" : "8700",
+
+    "channel_server_ip" : "192.168.1.203",
+    "channel_server_port" : "8800",
+
+    "is_debug_mode" : 1
+}

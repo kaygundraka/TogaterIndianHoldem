@@ -1,0 +1,8 @@
+digraph "connected_session"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{connected_session\n|- socket_\l- room_key_\l- player_key_\l- create_room_\l- enter_room_\l- is_accept_\l- is_remain\l- pre_remain_size\l- remain_buf\l- packet_buf\l- temp_buf\l- recv_buf_\l- send_buf_\l- safe_disconnect_\l|+ shut_down()\l+ is_connected()\l+ set_safe_disconnect()\l+ is_safe_disconnect()\l+ get_player_key()\l+ get_room_key()\l+ is_in_room()\l+ set_room_state()\l+ accept_client()\l+ handle_send()\l+ get_socket()\l+ start()\l+ create()\l- connected_session()\l- handle_read()\l- process_packet_echo_ntf()\l- process_packet_enter_req()\l- process_packet_process\l_turn_ans()\l- process_packet_disconnect\l_room_ntf()\l- porcess_packet_game\l_state_ntf()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{boost::enable_shared\l_from_this\< connected\l_session \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}
